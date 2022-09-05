@@ -20,7 +20,7 @@ public class AdministratorPageTest extends BaseTest {
     private final String administratorEmail = "eringonzales@test.com";
     private final String administratorPassword = "1";
     private final String orderId = "1";
-    private final String ADMINISTRATOR_URL = "http://miniserver:8880/administrator-panel";
+    private final String ADMINISTRATOR_URL = "http://ec2-13-42-10-104.eu-west-2.compute.amazonaws.com:3000/administrator-panel";
     private final String SQL_FILE = "src/test/resources/datasource/administrator/administrator_datasource.sql";
 
     private SignInPage signInPage;
