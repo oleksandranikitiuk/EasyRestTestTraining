@@ -4,20 +4,16 @@
     <listeners>
         <listener class-name="utility.Listener"/>
     </listeners>
-    <test verbose="2" name="C:/SoftServe/EasyRestTestTraining">
-        <parameter name="os" value="Windows"/>
-        <parameter name="osVersion" value="10"/>
-        <parameter name="browserName" value="Chrome"/>
-        <parameter name="browserVersion" value="latest"/>
+    <test name="Administrator Page Test">
         <classes>
-            <class name="tests.waiter.WaiterOrderStatusTest">
+<!--            <class name="tests.waiter.WaiterOrderStatusTest">
             </class>
             <class name="tests.moderator.ModeratorRestaurantStatusTest">
             </class>
             <class name="tests.moderator.ModeratorClientStatusTest">
             </class>
             <class name="tests.moderator.ModeratorOwnerStatusTest">
-            </class>
+            </class>-->
             <class name="tests.administrator.AdministratorPageTest">
             </class>
         </classes>
